@@ -1,5 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+:root{
+    --primary-color: #4d0026;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Karla', sans-serif;
+}
+
 .container{
     width: 50%;
     margin: auto;
     display: block;
+    padding: 1rem;
+    max-width: 500px;
 }
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+label{
+    color: white;
+    padding: 1rem;
+}
+
+input{
+    padding: 0.3rem;
+}
+
+#output{
+    display: block;
+    height: 20vh;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5rem;;
+}
+
+#lucky-check{
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #ff99cc;
+    border-radius: 0.5rm;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
