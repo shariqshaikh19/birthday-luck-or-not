@@ -18,9 +18,9 @@ function calculateSum(dob){
 
 function calculateLucky(birthDateSum,luckyNumber){
     if(birthDateSum % luckyNumber ===0){
-        showMessage("Your birthday is lucky");
+        showMessage("Your birthday date is lucky!!!🥳");
     }else{
-        showMessage("You are not that lucky, so SAD!!")
+        showMessage("You are not that lucky, so SAD!!!😿")
     }
 }
 
@@ -38,10 +38,10 @@ function birthdayLuckOrNot(){
             var luckyOrNot= calculateLucky(birthDateSum, luckyNumber.value);
         }
         else{
-            textArea.innerText="Please enter the required fields";
+            textArea.innerText="Please enter both the fields.";
         }
     }
     else{
-        textArea.innerText="Please enter the required fields";
+        textArea.innerText="Please enter both the fields.";
     }
 }

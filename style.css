@@ -29,6 +29,7 @@ label{
 
 input{
     padding: 0.3rem;
+    background-color: #f9ecf9;
 }
 
 #output{
@@ -43,7 +44,7 @@ input{
 
 #lucky-check{
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 1rem auto;
     background-color: #ff99cc;
     border-radius: 0.5rm;
     border: 1px solid var(--primary-color);
